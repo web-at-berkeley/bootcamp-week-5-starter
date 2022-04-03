@@ -50,7 +50,7 @@ Shared is empty for now, but will come into play during next week’s project wi
 
 Project is creating a client using the Spotify API. You will first create a web player that can be controlled using Spotify Connect, then interact with the Search API to get information based on arbitrary input. This project will also be an exercise in Redux principles from last week's reading.
 
-**Phase 1 (recommended Monday)** – Make the bare-bones Spotify player. [Instructions here.](https://webatberkeley.notion.site/Spotify-Project-Phase-1-Instructions-f256ad1aad6c4548a63240ae50ef6a7d)
+**Phase 1 (recommended Monday)** – Make the bare-bones Spotify player. [Instructions here.](https://webatberkeley.notion.site/Spotify-Project-Phase-1-Instructions-a9ab0b347d3843659091c05648d78bad)
 
 **Phase 2 (recommended Wednesday)** – Using the [Search API](https://developer.spotify.com/documentation/web-api/reference/#/operations/search), make a search bar that updates results in response to typing.
 
