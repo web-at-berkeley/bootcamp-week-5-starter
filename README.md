@@ -76,6 +76,15 @@ Your Phase 2 implementation should meet the following requirements:
 **Technical Requirements**
 
 - [For security reasons](https://stackoverflow.com/a/28406268), Spotify requires that you make all your Axios calls from the backend node server at localhost:5000. It will deny access if you try to make API calls from the frontend React client.
+- For Phase 2 and beyond, your API calls will use the following header:
+  ```
+  Authorization: 'Bearer ' + access_token
+  ```
+  instead of the one you used in Phase 1:
+  ```
+  Authorization: 'Basic ' + Buffer.from(spotify_client_id + ':' + spotify_client_secret).toString('base64')
+  ```
+  Note that we only use basic authentication one time – when we are fetching the token.
 
 ## Submission
 
@@ -84,3 +93,7 @@ Your Phase 2 implementation should meet the following requirements:
 For each phase, **create** a PR from development to `main`.
 
 **Send** the link to `#bootcamp-devs-checkoffs` on Slack for review.
+
+```
+
+```
